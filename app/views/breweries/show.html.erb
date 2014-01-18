@@ -12,7 +12,7 @@
   </i>
 </p>
 
-<p>Beers count: <%= @brewery.beers.count %></p>
+<p>Number of beers: <%= @brewery.beers.count %></p>
 
 <p>
   <% @brewery.beers.each do |beer| %>
@@ -21,7 +21,11 @@
 
   <% end %>
 </p>
-
+<% if @brewery.ratings.empty? %>
+    Beers doesnt have any ratings.
+<% else %>
+    <p>Has <%=pluralize(@brewery.ratings.count, "rating")%>, average <%= @brewery.average_rating%></p>
+<% end %>
 
 <%= link_to 'Edit', edit_brewery_path(@brewery) %> |
-<%= link_to 'Back', breweries_path %>
+
