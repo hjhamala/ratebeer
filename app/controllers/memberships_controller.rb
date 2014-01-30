@@ -28,7 +28,7 @@ class MembershipsController < ApplicationController
     @membership = Membership.new(membership_params)
 
     respond_to do |format|
-      if @membership.save
+      if !current_user.nil? && @membership.save
         current_user.memberships << @membership
 
 
