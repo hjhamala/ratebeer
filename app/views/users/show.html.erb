@@ -5,6 +5,18 @@
   <%= @user.username %>
 </p>
 
+
+
+<p>
+  <strong>Favorite style:</strong>
+  <%= @user.favorite_style %>
+</p>
+
+<p>
+  <strong>Favorite brewery:</strong>
+  <%= @user.favorite_brewery %>
+</p>
+
 <%= link_to 'Back', users_path %> |
 <% if @user == current_user %>
     <%= link_to 'Edit', edit_user_path(@user) %> |

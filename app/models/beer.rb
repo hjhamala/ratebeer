@@ -6,6 +6,8 @@ class Beer < ActiveRecord::Base
 
   validates :name, length: { minimum: 1 }
 
+  validates :style, length: { minimum: 1 }
+
 
   def to_s
     "#{self.name} (#{self.brewery.name})"
