@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca574781-d6fa-4962-a51a-636c83d6ccbe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.erb" afterPath="$PROJECT_DIR$/app/views/users/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/breweries/index.html.erb" afterPath="$PROJECT_DIR$/app/views/breweries/index.html.erb" />
     </list>
     <ignored path="ratebeer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,91 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/beer_clubs/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="89" selection-start="359" selection-end="448" vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/breweries/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="31" selection-start="640" selection-end="640" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="570">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/beers/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="84" selection-start="439" selection-end="523" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/breweries/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="66" selection-start="455" selection-end="455" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/memberships/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/memberships/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/ratings/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="210" selection-end="210" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Readme.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="127" selection-start="305" selection-end="305" vertical-scroll-proportion="0.062240664" vertical-offset="0" max-vertical-offset="723">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="28" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-26.833334" vertical-offset="76" max-vertical-offset="855">
+            <state line="20" column="8" selection-start="397" selection-end="397" vertical-scroll-proportion="0.3875969" vertical-offset="0" max-vertical-offset="774">
               <folding />
             </state>
           </provider>
@@ -174,12 +92,12 @@
         <option value="$PROJECT_DIR$/app/views/beers/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/beer_clubs/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/breweries/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/breweries/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/memberships/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/memberships/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/app/views/breweries/index.html.erb" />
       </list>
     </option>
   </component>
@@ -1028,65 +946,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/breweries/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="31" selection-start="640" selection-end="640" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/memberships/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/breweries/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="455" selection-end="455" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="540">
+        <state line="19" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.38050735" vertical-offset="0" max-vertical-offset="749">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/beers/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="84" selection-start="439" selection-end="523" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="24" column="84" selection-start="439" selection-end="523" vertical-scroll-proportion="0.48064086" vertical-offset="0" max-vertical-offset="749">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/memberships/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="315">
+        <state line="15" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.29069766" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ratings/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="210" selection-end="210" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="285">
+        <state line="9" column="34" selection-start="210" selection-end="210" vertical-scroll-proportion="0.1744186" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="28" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-26.833334" vertical-offset="76" max-vertical-offset="855">
+        <state line="48" column="28" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.8320413" vertical-offset="76" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="16" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.31007752" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="127" selection-start="305" selection-end="305" vertical-scroll-proportion="0.062240664" vertical-offset="0" max-vertical-offset="723">
+        <state line="3" column="53" selection-start="231" selection-end="231" vertical-scroll-proportion="0.058214746" vertical-offset="0" max-vertical-offset="773">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/breweries/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="31" selection-start="640" selection-end="640" vertical-scroll-proportion="0.60080105" vertical-offset="0" max-vertical-offset="749">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/breweries/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="8" selection-start="397" selection-end="397" vertical-scroll-proportion="0.3875969" vertical-offset="0" max-vertical-offset="774">
           <folding />
         </state>
       </provider>
