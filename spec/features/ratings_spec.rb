@@ -50,7 +50,7 @@ describe "Rating" do
 
   end
 
-  it "when ratings are deleted, do it" do
+  it "when ratings are deleted, do it if admin" do
 
     FactoryGirl.create :rating, beer: beer1, user: user
 
@@ -59,7 +59,8 @@ describe "Rating" do
     expect(page).to have_content 'iso 3 10'
     expect(page).not_to have_content 'Karhu'
     expect(page).to have_content 'Has 1 rating'
-
+    u = User.first
+    u.update_attribute(:admin, true)
     expect{find_link("delete").click}.to change{Rating.count}.from(1).to(0)
 
   end

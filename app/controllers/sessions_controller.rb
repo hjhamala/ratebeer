@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+  before_action :ensure_that_admin, only: [:destroy]
   def new
     # renderöi kirjautumissivun
   end

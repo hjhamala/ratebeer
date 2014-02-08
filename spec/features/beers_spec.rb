@@ -52,7 +52,46 @@ describe "Beer" do
 
   end
 
+  describe "User who is not admin" do
+    it "cannot delete beers" do
+
+      visit new_beer_path
+
+      fill_in('beer[name]', with:'Koff')
+
+      expect{
+        click_button "Create Beer"
+      }.to change{Beer.count}.from(0).to(1)
 
 
+      click_link "Koff"
+      click_link "Destroy"
+      expect(Beer.count).to eq(1)
+
+    end
+
+  end
+
+  describe "User who is admin" do
+    it "can delete beers" do
+
+      visit new_beer_path
+
+      fill_in('beer[name]', with:'Koff')
+      u = User.first
+      u.update_attribute(:admin, true)
+
+
+      expect{
+        click_button "Create Beer"
+      }.to change{Beer.count}.from(0).to(1)
+
+      click_link "Koff"
+      click_link "Destroy"
+      expect(Beer.count).to eq(0)
+
+    end
+
+  end
 
 end
