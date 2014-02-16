@@ -11,6 +11,12 @@ end
 
 gem 'byebug', group: [:development, :test]
 
+gem 'httparty'
+
+gem 'webmock', group: [:test]
+
+gem "rails-settings-cached", "0.3.1"
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'

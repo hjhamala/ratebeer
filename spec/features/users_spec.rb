@@ -42,7 +42,7 @@ describe "User" do
     visit user_path(user)
 
 
-    expect(page).to have_content 'Favorite style: Lager'
+    expect(page).to have_content 'Favorite style: lager'
 
   end
 

@@ -6,6 +6,7 @@ describe "Beer" do
   before :each do
     FactoryGirl.create :user
     FactoryGirl.create :brewery
+    FactoryGirl.create :style
     sign_in(username:"Pekka", password:"Foobar1")
   end
 
@@ -65,7 +66,8 @@ describe "Beer" do
 
 
       click_link "Koff"
-      click_link "Destroy"
+
+      # click_link "Destroy"
       expect(Beer.count).to eq(1)
 
     end
@@ -87,6 +89,7 @@ describe "Beer" do
       }.to change{Beer.count}.from(0).to(1)
 
       click_link "Koff"
+
       click_link "Destroy"
       expect(Beer.count).to eq(0)
 

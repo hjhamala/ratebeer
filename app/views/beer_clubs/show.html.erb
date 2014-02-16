@@ -21,6 +21,17 @@
       <li><%= link_to member.username, member%> </li>
   <% end %>
 </ul>
+<%
+
+
+   %>
+<%=if !current_user.nil? and current_user.memberships.select {|membership| membership.beer_club_id == @beer_club.id}.count == 0
+    form_for(@membership) do |f| %>
+    <%= f.hidden_field :beer_club_id %>
+    <%= f.submit value:"join the club" %>
+<% end
+end
+%>
 
 
 <%= link_to 'Destroy', @beer_club, method: :delete, data: { confirm: 'Are you sure?' } %>

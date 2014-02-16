@@ -9,12 +9,22 @@
 
 <p>
   <strong>Favorite style:</strong>
-  <%= @user.favorite_style %>
+  <%=if @user.favorite_style.nil?
+      "No favorite style"
+    else
+      @user.favorite_style.name
+  end
+  %>
 </p>
 
 <p>
   <strong>Favorite brewery:</strong>
-  <%= @user.favorite_brewery %>
+  <%=if @user.favorite_style.nil?
+       "No favorite brewery"
+     else
+       @user.favorite_brewery.name
+     end
+  %>
 </p>
 
 <%= link_to 'Back', users_path %> |
