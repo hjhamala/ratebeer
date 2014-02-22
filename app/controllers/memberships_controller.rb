@@ -23,6 +23,22 @@ class MembershipsController < ApplicationController
   def edit
   end
 
+  def toggle_confirmed
+
+    # Varmistetaan, että nykyinen käyttäjä kuuluu ko. kerhoon
+    membership=  Membership.find(params[:id])
+    if !Membership.find_by(beer_club_id: membership.beer_club_id, user_id: current_user.id, confirmed: true).nil?
+      membership.confirmed = true
+      membership.save
+      redirect_to :back, notice:"User #{membership.user.username} confirmed"
+      return
+    end
+
+    redirect_to :back, notice:"Only confirmed members can confirm other users"
+
+  end
+
+
   # POST /memberships
   # POST /memberships.json
   def create

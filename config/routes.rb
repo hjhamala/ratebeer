@@ -1,5 +1,8 @@
 Ratebeer::Application.routes.draw do
-  resources :memberships
+
+  resources :memberships do
+    post 'toggle_confirmed', on: :member
+  end
 
   resources :beer_clubs
 
@@ -7,11 +10,20 @@ Ratebeer::Application.routes.draw do
 
   resources :beers
 
-  resources :breweries
+  resources :breweries do
+    post 'toggle_activity', on: :member
+  end
+
 
   resources :styles
 
   root 'breweries#index'
+
+  get 'beerlist', to:'beers#list'
+
+  get 'brewerylist', to:'breweries#list'
+
+  get 'ngbeerlist', to:'beers#nglist'
 
   get 'kaikki_bisset', to: 'beers#index'
 

@@ -15,6 +15,10 @@ gem 'httparty'
 
 gem 'webmock', group: [:test]
 
+gem 'jquery-turbolinks'
+
+gem 'selenium-webdriver'
+
 gem "rails-settings-cached", "0.3.1"
 
 group :production do
@@ -53,10 +57,19 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.14.1'
 end
 
+gem 'bootstrap-sass'
+
+gem 'rack-mini-profiler'
+
+group :development do
+  gem 'rails_layout'
+end
+
 group :test do
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'database_cleaner', '< 1.1.0'
 end
 
 gem 'simplecov', require: false

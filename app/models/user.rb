@@ -35,6 +35,10 @@ class User < ActiveRecord::Base
     style_ratings.sort_by{ |r| r.last }.last.first
   end
 
+  def self.top_raters(n)
+    return User.all.sort_by{|u| -(u.ratings.count||0)}
+  end
+
   private
 
   def rated_styles
@@ -54,5 +58,7 @@ class User < ActiveRecord::Base
     ratings_of_brewery = ratings.select{ |r| r.beer.brewery==brewery }
     ratings_of_brewery.inject(0.0){ |sum, r| sum+r.score}/ratings_of_brewery.count
   end
+
+
 
 end

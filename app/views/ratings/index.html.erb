@@ -1,13 +1,37 @@
-<h2>List of ratings</h2>
+<p>Recent ratings</p>
+<% cache 'ratings_list', expires_in:10.minutes do %>
+<ul>
+  <% @ratings_recent.each do |rating| %>
+      <li> <%= rating %> by <%= link_to rating.user.username, rating.user%> </li>
+  <% end %>
+</ul>
+
+<h2>Top 3 breweries</h2>
+
+<%= render 'list', items: @breweries_top_3%>
 
 
-  <ul>
-    <% @ratings.each do |rating| %>
-        <li> <%= rating %> <%= link_to current_user.username, current_user%> </li>
-    <% end %>
-  </ul>
+</table>
+
+<h2>Top 3 beers</h2>
+
+<%= render 'list', items: @beers_top_3%>
+
+<h2>Top 3 styles</h2>
+
+<%= render 'list', items: @styles_top_3%>
+
+
+<h2>Top 3 raters</h2>
+
+<ul>
+  <% @users_top_3.each do |user| %>
+      <li> <%= link_to user.username, user%> </li>
+  <% end %>
+</ul>
 
 <p>Ratings count: <%= Rating.count%></p>
 
 </ul>
+<% end %>
 <p><%= link_to 'New Rating', new_rating_path %></p>

@@ -17,8 +17,16 @@
 
 <p>Members:</p>
 <ul>
-  <% @beer_club.members.each do |member| %>
-      <li><%= link_to member.username, member%> </li>
+  <% @confirmed_members.each do |member| %>
+      <li><%= link_to member.user.username, member.user%> </li>
+  <% end %>
+</ul>
+
+<p>Unconfirmed Members:</p>
+<ul>
+  <% @unconfirmed_members.each do |member| %>
+      <li><%= link_to member.user.username, member.user%> <%= link_to "confirm membership", toggle_confirmed_membership_path(member.id), method: :post, class: "btn btn-primary" %>
+      </li>
   <% end %>
 </ul>
 <%
