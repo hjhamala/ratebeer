@@ -52,6 +52,7 @@ describe "beerlist page" do
 
   it "beers are ordered by the brewery", js: true do
     visit beerlist_path
+    find('table').find('tr:nth-child(2)')
     click_link('Brewery')
     find('table').find('tr:nth-child(2)')
     find('table').find('tr:nth-child(2)').should have_content('Ayinger')
