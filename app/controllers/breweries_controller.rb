@@ -21,7 +21,7 @@ class BreweriesController < ApplicationController
     brewery.update_attribute :active, (not brewery.active)
 
     new_status = brewery.active? ? "active" : "retired"
-
+    brewery.save
     redirect_to :back, notice:"brewery activity status changed to #{new_status}"
   end
 

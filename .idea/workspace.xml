@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca574781-d6fa-4962-a51a-636c83d6ccbe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.last_run.json" afterPath="$PROJECT_DIR$/coverage/.last_run.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/.resultset.json" afterPath="$PROJECT_DIR$/coverage/.resultset.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/beerlist_spec.rb" afterPath="$PROJECT_DIR$/spec/features/beerlist_spec.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.~$workspace.xml.insyncdl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/breweries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/breweries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ratebeer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +29,7 @@
       <file leaf-file-name="breweries_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/breweries_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.3887195" vertical-offset="0" max-vertical-offset="1680">
+            <state line="23" column="16" selection-start="688" selection-end="688" vertical-scroll-proportion="0.5259146" vertical-offset="0" max-vertical-offset="1680">
               <folding />
             </state>
           </provider>
@@ -931,7 +927,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/breweries_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.3887195" vertical-offset="0" max-vertical-offset="1680">
+        <state line="23" column="16" selection-start="688" selection-end="688" vertical-scroll-proportion="0.5259146" vertical-offset="0" max-vertical-offset="1680">
           <folding />
         </state>
       </provider>
